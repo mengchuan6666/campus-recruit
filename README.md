@@ -318,9 +318,9 @@ section中定义的是轮播图的功能
 运行jar包前要关闭idea中的程序，不然会有端口冲突
 
 
-                                                **欢迎大家一起交流学习，共同进步。技术交流群，请加小孟微信：**
+                                           **欢迎大家一起交流学习，共同进步。技术交流群，请加小孟微信：**
 
-<div align=center><img width="150" height="150" src="https://images.gitee.com/uploads/images/2020/1219/203754_ef21dcd8_7604956.png"/></div>
+<div align=center><img width="250" height="250" src="https://images.gitee.com/uploads/images/2020/1219/203754_ef21dcd8_7604956.png"/></div>
 
 
 
