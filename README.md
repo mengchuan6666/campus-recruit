@@ -1,16 +1,48 @@
 # 基于springboot2+vue2.X的校园招聘系统
 
+系统源码可以完美运行，系统的视频非常详细，详细地讲解了系统的功能编写。
+
+求个star，感谢！
+
 **项目视频讲解地址**：https://www.bilibili.com/video/BV1FT4y1L7TA
 
 ## 1.系统简介
 
 该系统基于springboot2，vue2.X等技术实现了校园招聘系统，为求职者与招聘人员提供了便捷的在线招聘信息平台。
 
-### 1.1 首页
+### 1.1 系统环境配置
+
+* 系统开发平台：JDK1.8+Windows7+Maven3.6.1
+
+* 开发语言：JavaEE+vue
+
+* 后台框架：Springboot
+
+* 前端：Vue2.9.6
+
+* 数据库:MySql5.7
+
+* 开发环境: Intelij Idea
+
+* 浏览器: Chrome或360浏览器
+
+### 1.2 系统搭建步骤
+
+前置条件：系统已经安装了Mysql5.7，Mysql工具(Navicat)，JDK1.8，Maven3.6.1，vue3.0以下开发环境，Intelij Idea，Chrome或360浏览器
+
+* 导入数据库
+
+* 编译前端代码vue：编译(cnpm install),试运行(npm serve)
+
+* 导入后端代码springboot
+
+* 启动springboot
+
+### 1.3 首页
 
 位于首页最上方的是导航栏，系统导航栏有：首页，招聘信息，求职者信息，友情链接，留言板，后台管理，登录
 
-![image.png](https://i.loli.net/2020/12/20/7jAmuNOr4yhWBGt.png)
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1218/182903_15f2074b_7604956.png "屏幕截图.png")
 
 导航栏下方是一个轮播图轮放图片，再往下是首页展示的招聘信息，求职者信息，新闻资讯等简略的内容，都可以点击查看更多来查看详细内容，该按钮对应导航栏的相应内容
 
@@ -20,29 +52,31 @@
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/1218/183741_a99d228a_7604956.png "屏幕截图.png")
 
-### 1.2 招聘信息
+### 1.4 招聘信息
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/1218/183831_e8e53008_7604956.png "屏幕截图.png")
 
-### 1.3 求职者信息
+### 1.5 求职者信息
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/1218/184037_60026e14_7604956.png "屏幕截图.png")
 
-### 1.4 友情链接
+### 1.6 友情链接
 
 可以和哪些网站进行互相链接访问
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/1218/184103_6d515200_7604956.png "屏幕截图.png")
 
-### 1.5 留言板
+### 1.7 留言板
 
-### 1.6 后台管理
+位于首页底部，登录的用户可以进行留言，管理员可以在后台查看留言。
+
+### 1.8 后台管理
 
 在个人中心点击我的后台或者直接在导航栏点击后台管理即可进入后台页面
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/1218/184952_1e07474b_7604956.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/1219/204020_a21697f5_7604956.png "屏幕截图.png")
 
-### 1.7 登录
+### 1.9 登录
 
 登录分为用户登录和企业以及管理员登录
 
@@ -54,41 +88,11 @@
 
 企业功能：招聘信息管理，应聘信息管理等
 
-### 1.8 个人中心
+### 1.10 个人中心
 
 登录之后导航栏会出现个人中心，点击可以查看个人信息，提供查看后台/退出登录/修改密码/修改个人信息等功能
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/1218/184813_bcf76671_7604956.png "屏幕截图.png")
-
-## 2. 开发环境配置和数据库导入
-
-### 2.1 系统环境配置
-
-系统开发平台：JDK1.8+Windows7+Maven3.6.1
-
-开发语言：JavaEE+vue
-
-后台框架：Springboot
-
-前端：Vue2.9.6
-
-数据库:MySql5.7
-
-开发环境: Intelij Idea
-
-浏览器: Chrome或360浏览器
-
-### 2.2 系统搭建步骤
-
-前置条件：系统已经安装了Mysql5.7，Mysql工具(Navicat)，JDK1.8，Maven3.6.1，vue3.0以下开发环境，Intelij Idea，Chrome或360浏览器
-
-* 导入数据库
-
-* 编译前端代码vue：编译(cnpm install),试运行(npm serve)
-
-* 导入后端代码springboot
-
-* 启动springboot
 
 ## 3. 导入后端代码并启动
 
@@ -312,6 +316,12 @@ section中定义的是轮播图的功能
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/1218/193315_d7dfdc8f_7604956.png "屏幕截图.png")
 
 运行jar包前要关闭idea中的程序，不然会有端口冲突
+
+
+                                                **欢迎大家一起交流学习，共同进步。技术交流群，请加小孟微信：**
+
+<div align=center><img width="150" height="150" src="https://images.gitee.com/uploads/images/2020/1219/203754_ef21dcd8_7604956.png"/></div>
+
 
 
 
