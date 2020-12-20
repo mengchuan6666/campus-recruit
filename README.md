@@ -10,7 +10,7 @@
 
 位于首页最上方的是导航栏，系统导航栏有：首页，招聘信息，求职者信息，友情链接，留言板，后台管理，登录
 
-[![](https://pic.downk.cc/item/5fdf01af3ffa7d37b365321e.jpg)](https://pic.downk.cc/item/5fdf01af3ffa7d37b365321e.jpg)
+![image.png](https://i.loli.net/2020/12/20/7jAmuNOr4yhWBGt.png)
 
 导航栏下方是一个轮播图轮放图片，再往下是首页展示的招聘信息，求职者信息，新闻资讯等简略的内容，都可以点击查看更多来查看详细内容，该按钮对应导航栏的相应内容
 
